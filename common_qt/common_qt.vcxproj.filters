@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{52e941ec-5382-4395-a1a0-ed7ef63b4e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b9538759-86cf-46d0-91ef-4fc6758a400a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5bc79fc6-ded5-4dda-847e-46dfb233cc8e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{633e90a6-6bc1-4009-a003-9e03cc39d0d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\app_qt_data.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\form_property_widget_impl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\list_widget_drag_drop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\panel_table_widget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree_widget_drag_drop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util_qt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util_qt_wrap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_form_property_widget_impl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_form_property_widget_impl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_form_property_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\app_qt_data.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list_widget_drag_drop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\panel_table_widget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tree_widget_drag_drop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_qt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_qt_wrap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\form_property_widget.ui">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="include\form_property_widget_impl.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

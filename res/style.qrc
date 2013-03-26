@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ex_down_arrow.png</file>
+        <file>ex_end_frame.png</file>
+        <file>ex_left_arrow.png</file>
+        <file>ex_next_frame.png</file>
+        <file>ex_open.png</file>
+        <file>ex_parameter_colorpicker.png</file>
+        <file>ex_parameter_toolbutton.png</file>
+        <file>ex_play.png</file>
+        <file>ex_previous_frame.png</file>
+        <file>ex_scroll2.png</file>
+        <file>ex_scroll.png</file>
+        <file>ex_sizegrip.png</file>
+        <file>ex_open.png</file>
+        <file>ex_spin_down_disabled.png</file>
+        <file>ex_spin_down_enabled.png</file>
+        <file>ex_spin_down_enabled_hover.png</file>
+        <file>ex_spin_down_enabled_pressed.png</file>
+        <file>ex_spin_up_disabled.png</file>
+        <file>ex_spin_up_enabled.png</file>
+        <file>ex_spin_up_enabled_hover.png</file>
+        <file>ex_spin_up_enabled_pressed.png</file>
+        <file>ex_start_frame.png</file>
+        <file>ex_stop.png</file>
+        <file>ex_up_arrow.png</file>
+    </qresource>
+</RCC>

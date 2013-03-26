@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common_qt", "common_qt.vcproj", "{D54ADDA0-8534-4806-BA30-C38B7EA4249C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D54ADDA0-8534-4806-BA30-C38B7EA4249C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D54ADDA0-8534-4806-BA30-C38B7EA4249C}.Debug|Win32.Build.0 = Debug|Win32
+		{D54ADDA0-8534-4806-BA30-C38B7EA4249C}.Release|Win32.ActiveCfg = Release|Win32
+		{D54ADDA0-8534-4806-BA30-C38B7EA4249C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

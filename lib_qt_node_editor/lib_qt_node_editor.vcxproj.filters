@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{508d497d-0cbd-4acc-8f8f-7de5e402fc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{424d91d1-0a10-48fe-81a0-ad2fe194cc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ce4af27b-e6e7-4ee2-ba7c-cb125100d9f0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{a8c0805d-9ebb-4272-a5c2-2497119b87db}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\def_data.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\list_widget_drag_drop.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node_graphics_view.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node_item.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node_line.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node_line_manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node_port_in.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node_port_out.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_form_node_data_list.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_form_node_editor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_form_node_side.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\form_node_data_list_impl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\form_node_editor_impl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\form_node_side_impl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\list_widget_drag_drop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_diagram_scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_graphics_view.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_item.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_line.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_line_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_port_in.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node_port_out.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_form_node_data_list_impl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_form_node_editor_impl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_form_node_side_impl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_node_diagram_scene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_form_node_data_list_impl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_form_node_editor_impl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_form_node_side_impl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_node_diagram_scene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\form_node_data_list.ui">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\form_node_data_list_impl.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\form_node_editor.ui">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\form_node_side.ui">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\form_node_side_impl.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\node_diagram_scene.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="include\form_node_editor_impl.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
