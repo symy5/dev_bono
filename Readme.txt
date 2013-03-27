@@ -1,25 +1,27 @@
-[2013/03/27]
+ï»¿[2013/03/28]
 
-¡ ŠJ”­ŠÂ‹«
+â–  é–‹ç™ºç’°å¢ƒ
 
-  EVisual Studio 2010 SP1
+  ãƒ»Visual Studio 2010 SP1
+    qt-vs-addin-1.1.11-opensource.exe
 
-  EQt 4.8.2
-
-
-¡ ƒrƒ‹ƒh
-
-  (1) _prepare.bat Às
-  (2) dev_bonobon.sln ‚É‚Äƒrƒ‹ƒh
+  ãƒ»Qt 4.8.2
+    qt-everywhere-opensource-src-4.8.2.zip
 
 
-¡ ƒNƒŠ[ƒ“
+â–  ãƒ“ãƒ«ãƒ‰
 
-  (1) _clean.bat Às
+  (1) _prepare.bat å®Ÿè¡Œ
+  (2) dev_bonobon.sln ã«ã¦ãƒ“ãƒ«ãƒ‰
 
 
-¡ §ŒÀ–€
+â–  ã‚¯ãƒªãƒ¼ãƒ³
 
-  ŠJ”­’†‚Ì‚½‚ßA“®ì•ÛØ‚Í’v‚µ‚Ü‚¹‚ñB
+  (1) _clean.bat å®Ÿè¡Œ
 
-ˆÈã
+
+â–  åˆ¶é™äº‹é …
+
+  é–‹ç™ºä¸­ã®ãŸã‚ã€å‹•ä½œä¿è¨¼ã¯è‡´ã—ã¾ã›ã‚“ã€‚
+
+ä»¥ä¸Š
