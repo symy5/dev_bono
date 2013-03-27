@@ -122,7 +122,8 @@ QPainterPath NodeLine::shape() const
 /* override */
 void NodeLine::paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget)
 {
-	float fZ;
+	painter->save();
+
 	if (m_pNodeDstPort) {
 		//
 		/* [TBD]
@@ -132,7 +133,6 @@ void NodeLine::paint(QPainter* painter, const QStyleOptionGraphicsItem* option, 
 		*/
 		updatePosition(this->mapToScene(mapFromItem(m_pNodeDstPort, 0, 0)));
 	}
-	fZ = this->zValue();
 
 	painter->setRenderHint(QPainter::Antialiasing);
 	QPainterPath path(m_cpOne);
@@ -140,6 +140,9 @@ void NodeLine::paint(QPainter* painter, const QStyleOptionGraphicsItem* option, 
 	painter->strokePath(path, m_myPen);
 
 	this->setPath(path); /* [NOTE] これを入れないと、boundingRect()が呼ばれたときに正しい値が返されず、描画が適宜うまくいかない */
+	this->prepareGeometryChange();/* [NOTE] 形状が変更されたことを通知する */
+
+	painter->restore();
 }
 
 
